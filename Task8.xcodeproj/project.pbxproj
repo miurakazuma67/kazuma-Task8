@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A49625D726438FF300941F38 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A49625D626438FF300941F38 /* SecondViewController.swift */; };
 		A4CB5EC626394B640042EB76 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB5EC526394B640042EB76 /* AppDelegate.swift */; };
 		A4CB5EC826394B640042EB76 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB5EC726394B640042EB76 /* SceneDelegate.swift */; };
 		A4CB5ECA26394B640042EB76 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4CB5EC926394B640042EB76 /* ViewController.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A49625D626438FF300941F38 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		A4CB5EC226394B640042EB76 /* Task8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Task8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A4CB5EC526394B640042EB76 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A4CB5EC726394B640042EB76 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				A4CB5EC526394B640042EB76 /* AppDelegate.swift */,
 				A4CB5EC726394B640042EB76 /* SceneDelegate.swift */,
 				A4CB5EC926394B640042EB76 /* ViewController.swift */,
+				A49625D626438FF300941F38 /* SecondViewController.swift */,
 				A4CB5ECB26394B640042EB76 /* Main.storyboard */,
 				A4CB5ECE26394B660042EB76 /* Assets.xcassets */,
 				A4CB5ED026394B660042EB76 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A49625D726438FF300941F38 /* SecondViewController.swift in Sources */,
 				A4CB5ECA26394B640042EB76 /* ViewController.swift in Sources */,
 				A4CB5EC626394B640042EB76 /* AppDelegate.swift in Sources */,
 				A4CB5EC826394B640042EB76 /* SceneDelegate.swift in Sources */,
