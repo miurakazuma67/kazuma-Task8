@@ -8,21 +8,27 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-
+    
     @IBOutlet private weak var label: UILabel!
     @IBOutlet private weak var slider: UISlider!
     
+    private var appDelegate: AppDelegate? {
+        UIApplication.shared.delegate as? AppDelegate
+    }
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        slider.value = delegate.sliderValue ?? 0.0
-        decideLabelText()
+        if let appDelegate = appDelegate {
+            slider.value = appDelegate.sliderValue ?? 0.0
+            decideLabelText()
+        }
     }
-
+    
     @IBAction private func decideValue(_ sender: Any) {
-        let delegate = UIApplication.shared.delegate as! AppDelegate
-        delegate.sliderValue = slider.value
-        decideLabelText()
+        if let appDelegate = appDelegate {
+            appDelegate.sliderValue = slider.value
+            decideLabelText()
+        }
     }
     
     private func decideLabelText() {
